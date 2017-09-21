@@ -1,0 +1,53 @@
+
+p.format {
+color: rgb(255,45,23) /* sposób z programów graficznych kolor w formacie RGB */
+}
+
+a {
+text-decoration: none;}
+
+a:hover{
+text-decoration: underline;}
+			/* line-through, overline */
+
+p.transformacja {
+
+text-transform: uppercase; /* mo¿liwe jeszcze lowercase i capitalize */
+text-align: center; /* wyrównanie tekstu prawo lewo œrodek wyjustowany*/
+text-indent: 15pt; /* wciêcie tekstu we wszystkich mo¿liwych jednostkach */
+line-height: 30px; /* odstêpy miêdzy wierszami */
+word-spacing: 30px; /* odstêp miêdzy wyrazami */
+letter-spacing: 10px; /* odstêp miêdzy literami */
+white-space: normal; /* usuwa dodatkowe spacje, pre tekst zostanie wyœwietlony tak jak napisany, nowrap - brak zawijania*/
+}
+
+h2{
+text-shadow: 10px -5px 2px green;} /* je¿eli wartoœci damy z minusem to cieñ "pójdzie"  w inn¹ stronê*/
+
+
+body{
+margin: 10mm;
+background-image: url(icon.png);
+background-repeat: repeat;/* brak powtarzania - domyœlnie powtarza - powtórzenie wzglêdem osi-x osi-y */
+background-position: center right; /* umieszczenie t³a mo¿emy ³¹czyæ dwie w³aœciwoœci góra dó³ œrodek prawo lewo */
+/* background-position: 10px 10mm; */
+background-attachment: fixed;/* t³o bêdzie nie ruchome, scroll - t³o bêdziê siê przewija³o */
+background-color: #ff8000; /* jak damy kolor to bêdzie widoczny podczas ³adowania lub je¿eli nie wczyta siê obraz */
+
+} 
+
+div.tlo {
+background-color: #808000;
+
+
+}
+
+div.obraz {
+background-image: url(pattern.jpg)
+}
+
+p.obrazek {
+color: #ff8000;
+background: url(pattern.jpg) no-repeat left;}
+
+a:link, a:visited {text-decoration: none;} /* jedn¹ komend¹ ogarniamy dwie rózne akcje */
